@@ -9,6 +9,8 @@ intents.members = True       # Чтобы видеть участников и �
 intents.message_content = True  # Чтобы читать содержимое сообщений
 intents.guilds = True        # Чтобы видеть серверы
 
+TOKEN = os.getenv('DISCORD_TOKEN')
+
 bot = commands.Bot(command_prefix=".", help_command=None, intents=disnake.Intents.all(), test_guilds=[1457765884155134095])
 
 CHARACTERS_FILE = "characters.json"
@@ -1835,4 +1837,5 @@ async def own_transfer_all(
 
 
 bot.run("TOKEN")
+
 
