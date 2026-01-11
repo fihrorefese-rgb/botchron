@@ -1839,7 +1839,8 @@ async def own_transfer_all(
     await inter.edit_original_message(embed=embed)
 
 
-bot.run("TOKEN")
+bot.run(TOKEN)
+
 
 
 
