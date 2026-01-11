@@ -1833,4 +1833,5 @@ async def own_transfer_all(
     
     await inter.edit_original_message(embed=embed)
 
-bot.run("MTA2NjQyNTQ5OTc2Njc2NzY1Nw.GsKg7Y.M_PrsvuN3vp3mgWkTf5uz3KVEz0RZ8OQ8avP2k")
+
+bot.run("MTA2NjQyNTQ5OTc2Njc2NzY1Nw.GZ1dTG.3RkFPe0ub1qE6Gor5_W4-UjNFelk2AAapeojJg")
