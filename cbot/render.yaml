@@ -1,0 +1,9 @@
+services:
+  - type: worker  # ← ВАЖНО: worker, а не web!
+    name: discord-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python cbot/bot.py
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false  # Значение нужно будет ввести вручную в Dashboard
