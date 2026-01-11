@@ -3,6 +3,7 @@ from disnake.ext import commands
 import json
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 
 intents = disnake.Intents.default()  # или .all()
 intents.members = True       # Чтобы видеть участников и их роли
@@ -1839,6 +1840,7 @@ async def own_transfer_all(
 
 
 bot.run("TOKEN")
+
 
 
 
